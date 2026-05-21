@@ -1,6 +1,4 @@
 
-a = int(input("enter a value:"))
-b = int(input("enter b value:"))
 
 while True:
     print("simple calculator")
@@ -8,9 +6,15 @@ while True:
     print("2.subtraction")
     print("3.multiplication")
     print("4.division")
-    print("5.exist")
+    print("5.exit")
+    
+    
+
+    a =int(input("enter a value:"))
+    b = int(input("enter b value:"))
 
     choice = input("enter a choice:")
+   
 
     if choice == "5":
         print("calculator closed")
